@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+header{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+a{text-decoration: none;
+
+}
+.logo{
+  text-transform: uppercase;
+  font-size: 2em;
+  font-style: italic;
+  color: #000;
+  font-weight: 800;
+}
+.menu{
+  list-style: none;
+  display: flex;
+}
+.menu  a {
+  font-size: 20px;
+  padding-left: 34px;
+  color: #000;
+  transition: color .3s ease;
+}
+.menu  a:hover{
+  color: #1361af;
+
+}
+main{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+main .banner{
+  flex-basis: 40%;
+}
+main .banner h1{
+  font-size:4.3em ;
+  color: #444;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+main .banner h2{
+  text-transform: uppercase;
+  font-size: 2.3em;
+  letter-spacing: 8px;
+  font-weight: 200;
+  color: darkorange;
+  margin-bottom: 3em;
+
+}
+main .banner p{
+  line-height: 30px;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 2em;
+}
+main.banner.btn{
+  padding: 10px 30px;
+  background: darkorange;
+  border-radius: 40px;
+  color: #fff;
+  box-shadow: 0px 20px 80px #000 ;
+  transition: backgrond .3s ease;
+}
+main .banner .btn:hover{
+  background: #333;
+}
+main .imgbox{
+  flex-basis: 50%;
+}
+main .imgbox img{
+  height: auto;
+  width: 100%;
+}
